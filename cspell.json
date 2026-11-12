@@ -1,0 +1,41 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "bm25",
+    "chroma",
+    "chromadb",
+    "eval",
+    "evals",
+    "faiss",
+    "genai",
+    "gradio",
+    "jsonl",
+    "mrr",
+    "pera",
+    "pdf",
+    "pdfs",
+    "pycache",
+    "pyproject",
+    "pytest",
+    "rag",
+    "rerank",
+    "reranked",
+    "reranker",
+    "reranking",
+    "sqlite3",
+    "streamlit",
+    "tanmay",
+    "unanswerable",
+    "uncited",
+    "ungrounded",
+    "unittest",
+    "venv",
+    "vscode"
+  ],
+  "ignorePaths": [
+    "data/**",
+    ".git/**",
+    ".venv/**"
+  ]
+}
