@@ -20,7 +20,7 @@ This repository implements an end-to-end **Retrieval-Augmented Generation (RAG)*
 ## 31-Day Milestone Checklist (1 Commit / Day: Nov 13 – Dec 13, 2026)
 
 ### Step 1 — Corpus & Project Setup (Nov 13 – Nov 15)
-- [ ] **M01 (Nov 13)**: Project scaffolding (`pyproject.toml`, `requirements.txt`, `src/rag_evals/`, `.env.example`, config loader, initial smoke tests)
+- [x] **M01 (Nov 13)**: Project scaffolding (`pyproject.toml`, `requirements.txt`, `src/rag_evals/`, `.env.example`, config loader, initial smoke tests)
 - [ ] **M02 (Nov 14)**: Public 50–200 page PDF corpus acquisition script (`scripts/fetch_corpus.py`) with checksums and source URL tracking
 - [ ] **M03 (Nov 15)**: Corpus audit & manifest generator (`scripts/audit_corpus.py`, `data/corpus_manifest.json`) verifying page counts and metadata
 
