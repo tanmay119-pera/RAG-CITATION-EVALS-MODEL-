@@ -1,0 +1,21 @@
+{
+  "corpus_name": "University Academic Regulations & Policy Handbook",
+  "version": "REG-2026-V4",
+  "total_documents": 1,
+  "documents": [
+    {
+      "filename": "university_regulations_handbook.txt",
+      "bytes": 10170,
+      "sha256": "03e0c019f88970c9e34265f132af1496af00cca896590d86cd6c146221c56da4",
+      "format": "txt",
+      "sections": [
+        "SECTION 1: ACADEMIC INTEGRITY AND HONESTY CODE",
+        "SECTION 2: COURSE REGISTRATION, ADD/DROP, AND WITHDRAWAL POLICIES",
+        "SECTION 3: GRADING SYSTEM, GRADE POINTS, AND GPA CALCULATION",
+        "SECTION 4: ATTENDANCE, PARTICIPATION, AND LEAVE OF ABSENCE",
+        "SECTION 5: GRADUATION AND DEGREE CONFERRAL REQUIREMENTS",
+        "SECTION 6: TUITION FEES, PAYMENT DEADLINES, AND REFUND SCHEDULES"
+      ]
+    }
+  ]
+}
