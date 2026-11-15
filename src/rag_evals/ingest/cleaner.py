@@ -10,6 +10,8 @@ class TextCleaner:
         text = text.replace("\r\n", "\n").replace("\r", "\n")
         # Replace multiple spaces with single space
         text = re.sub(r"[ \t]+", " ", text)
+        # Remove whitespace adjacent to newlines
+        text = re.sub(r" ?\n ?", "\n", text)
         # Collapse 3+ newlines to 2 newlines
         text = re.sub(r"\n{3,}", "\n\n", text)
         return text.strip()
