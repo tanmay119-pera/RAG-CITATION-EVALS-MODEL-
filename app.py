@@ -11,17 +11,34 @@ from rag_evals.generation.verifier import CitationVerifier
 
 st.set_page_config(page_title="RAG Citation & Evals System", page_icon="📚", layout="wide")
 st.title("📚 RAG Academic Assistant with Verifiable Citations")
-st.markdown("Search university academic regulations with citation verification and refusal guarantees.")
 
 config = load_config()
 retriever = HybridRetriever(config)
 reranker = CrossEncoderReranker()
 generator = GroundedGenerator(config)
 
-user_query = st.text_input("Enter your policy question:", placeholder="e.g. What is the penalty for a first-time plagiarism violation?")
-if st.button("Submit Question", type="primary") and user_query:
-    raw_chunks = retriever.retrieve(user_query, top_k=5, mode="hybrid")
-    final_chunks = reranker.rerank(user_query, raw_chunks)
-    answer, is_refusal = generator.generate(user_query, final_chunks)
+col1, col2 = st.columns([2, 1])
+with col2:
+    retrieval_mode = st.selectbox("Mode", ["hybrid", "dense", "bm25"], index=0)
+    top_k = st.slider("Top K", 1, 10, 5)
+
+with col1:
+    user_query = st.text_input("Question:", placeholder="e.g. What is the deadline to appeal an ethics decision?")
+    submit = st.button("Search & Answer", type="primary")
+
+if submit and user_query:
+    raw = retriever.retrieve(user_query, top_k=top_k, mode=retrieval_mode)
+    final = reranker.rerank(user_query, raw)
+    answer, is_refusal = generator.generate(user_query, final)
+    v_res = CitationVerifier.verify(answer, {c.chunk_id for c in final})
+
     st.markdown("### Answer")
     st.markdown(answer)
+    st.markdown("---")
+    st.subheader("📑 Verified Source Citations")
+    for cid in v_res.valid_ids:
+        matching = next((c for c in final if c.chunk_id == cid), None)
+        if matching:
+            with st.expander(f"📍 Citation [{cid}] — {matching.metadata.get('section_title', '')}"):
+                st.write(f"**Document**: `{matching.metadata.get('file_name', '')}` (Page {matching.metadata.get('page_number', 1)})")
+                st.markdown(f"> {matching.text}")
