@@ -57,11 +57,11 @@ This repository implements an end-to-end **Retrieval-Augmented Generation (RAG)*
 ### Step 7 — Ablations & Failure Analysis (Dec 06 – Dec 08)
 - [x] **M24 (Dec 06)**: Chunking ablation harness (`scripts/run_ablations.py`) testing chunk sizes (300 vs 450 vs 600 tokens) & overlap
 - [x] **M25 (Dec 07)**: Retrieval/reranker ablations (BM25 vs Dense vs Hybrid RRF, Reranker Off vs On) & Markdown table generator (`eval/ablation_results.md`)
-- [ ] **M26 (Dec 08)**: Automated failure-case sampler & categorized error breakdown (`docs/failure_analysis.md`)
+- [x] **M26 (Dec 08)**: Automated failure-case sampler & categorized error breakdown (`docs/failure_analysis.md`)
 
 ### Step 8 — Demo App, Polish & Final Write-Up (Dec 09 – Dec 13)
-- [ ] **M27 (Dec 09)**: Interactive Streamlit/Gradio demo app (`app.py`) with query box and retrieval configuration controls
-- [ ] **M28 (Dec 10)**: Clickable inline citations UI showing source file, page number, section title, and highlighted chunk text
-- [ ] **M29 (Dec 11)**: Evaluation & ablation results view in the demo app rendering metrics and comparison tables
-- [ ] **M30 (Dec 12)**: End-to-end integration tests, UI smoke tests, and lint/code-quality pass across `src/` and `tests/`
-- [ ] **M31 (Dec 13)**: Final flagship `README.md` with architecture diagram, setup instructions, ablation results table, and honest failure-cases section + full test pass
+- [x] **M27 (Dec 09)**: Interactive Streamlit/Gradio demo app (`app.py`) with query box and retrieval configuration controls
+- [x] **M28 (Dec 10)**: Clickable inline citations UI showing source file, page number, section title, and highlighted chunk text
+- [x] **M29 (Dec 11)**: Evaluation & ablation results view in the demo app rendering metrics and comparison tables
+- [x] **M30 (Dec 12)**: End-to-end integration tests, UI smoke tests, and lint/code-quality pass across `src/` and `tests/`
+- [x] **M31 (Dec 13)**: Final flagship `README.md` with architecture diagram, setup instructions, ablation results table, and honest failure-cases section + full test pass

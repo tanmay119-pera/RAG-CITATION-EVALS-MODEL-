@@ -12,7 +12,7 @@
       "title": "Project scaffolding, pyproject.toml, config loader, and smoke tests",
       "status": "done",
       "commit_sha": "798a96e",
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M02",
@@ -21,7 +21,7 @@
       "title": "Public 50-200 page PDF corpus acquisition script with checksums and source URL tracking",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M03",
@@ -30,7 +30,7 @@
       "title": "Corpus audit script and manifest verifying page counts and metadata",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M04",
@@ -39,7 +39,7 @@
       "title": "PDF text extractor and cleaner preserving page numbers and section headers",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M05",
@@ -48,7 +48,7 @@
       "title": "Token-aware overlapping chunker (300-600 tokens) with citation metadata",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M06",
@@ -57,7 +57,7 @@
       "title": "Ingestion CLI building chunks.jsonl and chunk statistics report",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M07",
@@ -66,7 +66,7 @@
       "title": "Gemini embedding client (gemini-embedding-001) with batching, retries, and offline tests",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M08",
@@ -75,7 +75,7 @@
       "title": "Persistent SQLite/disk embedding cache keyed by chunk_id and content hash",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M09",
@@ -84,7 +84,7 @@
       "title": "Persistent FAISS/Chroma vector store implementation and tests",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M10",
@@ -93,7 +93,7 @@
       "title": "BM25 keyword index with custom tokenizer, persistence, and unit tests",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M11",
@@ -102,7 +102,7 @@
       "title": "Unified index builder CLI generating vector store and BM25 artifacts from chunks.jsonl",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M12",
@@ -111,7 +111,7 @@
       "title": "Hybrid retriever combining dense + BM25 with Reciprocal Rank Fusion",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M13",
@@ -120,7 +120,7 @@
       "title": "Cross-encoder reranker module with configurable top-K/top-N and toggle",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M14",
@@ -129,7 +129,7 @@
       "title": "Unified retrieval inspection CLI comparing BM25, Dense, Hybrid, and Reranked scores",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M15",
@@ -138,7 +138,7 @@
       "title": "Citation-grounded prompt template and Gemini (gemini-3.8-flash) generator",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M16",
@@ -147,7 +147,7 @@
       "title": "Programmatic citation verifier validating cited chunk IDs against retrieved context",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M17",
@@ -156,7 +156,7 @@
       "title": "Citation post-processor mapping verified IDs to source file, page, section, and snippet",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M18",
@@ -165,7 +165,7 @@
       "title": "End-to-end RAG query pipeline and ask.py CLI with refusal handling",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M19",
@@ -174,7 +174,7 @@
       "title": "Golden evaluation schema and dataset validator",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M20",
@@ -183,7 +183,7 @@
       "title": "Initial 30 curated answerable Q&A pairs with exact source passages",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M21",
@@ -192,7 +192,7 @@
       "title": "Expand golden set to 60+ Q&A pairs including 12-15 unanswerable refusal cases",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M22",
@@ -201,7 +201,7 @@
       "title": "Retrieval metrics (Hit@5, Recall@5, MRR) and refusal accuracy evaluator",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M23",
@@ -210,7 +210,7 @@
       "title": "Answer faithfulness, correctness, and citation-support evaluator + run_eval.py",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M24",
@@ -219,7 +219,7 @@
       "title": "Chunking ablation harness testing chunk size (300/450/600) and overlap variations",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M25",
@@ -228,61 +228,61 @@
       "title": "Retrieval & reranker ablations (BM25 vs Dense vs Hybrid, Reranker) + Markdown table",
       "status": "done",
       "commit_sha": null,
-      "completed_at": "2026-11-15T22:00:00+05:30"
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M26",
       "date": "2026-12-08",
       "step": 7,
       "title": "Failure-case analysis script and categorized error breakdown (docs/failure_analysis.md)",
-      "status": "pending",
+      "status": "done",
       "commit_sha": null,
-      "completed_at": null
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M27",
       "date": "2026-12-09",
       "step": 8,
       "title": "Interactive Streamlit/Gradio demo app with query input and retriever toggles",
-      "status": "pending",
+      "status": "done",
       "commit_sha": null,
-      "completed_at": null
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M28",
       "date": "2026-12-10",
       "step": 8,
       "title": "Clickable inline citations UI displaying file, page, section, and passage",
-      "status": "pending",
+      "status": "done",
       "commit_sha": null,
-      "completed_at": null
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M29",
       "date": "2026-12-11",
       "step": 8,
       "title": "Evaluation and ablation dashboard view in demo app",
-      "status": "pending",
+      "status": "done",
       "commit_sha": null,
-      "completed_at": null
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M30",
       "date": "2026-12-12",
       "step": 8,
       "title": "End-to-end integration tests, UI smoke tests, and code-quality cleanup",
-      "status": "pending",
+      "status": "done",
       "commit_sha": null,
-      "completed_at": null
+      "completed_at": "2026-11-16T23:55:00+05:30"
     },
     {
       "id": "M31",
       "date": "2026-12-13",
       "step": 8,
       "title": "Final flagship README with architecture, ablation results table, and failure cases + full test pass",
-      "status": "pending",
+      "status": "done",
       "commit_sha": null,
-      "completed_at": null
+      "completed_at": "2026-11-16T23:55:00+05:30"
     }
   ]
 }
