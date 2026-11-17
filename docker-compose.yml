@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - CHUNK_SIZE_TOKENS=450
+      - CHUNK_OVERLAP_TOKENS=50
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
