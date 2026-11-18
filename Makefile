@@ -1,4 +1,4 @@
-.PHONY: help install ingest build-index test eval ablations app clean
+.PHONY: help install ingest build-index test eval ablations app cli benchmark clean
 
 help:
 	@echo "Available commands:"
@@ -8,6 +8,8 @@ help:
 	@echo "  make test         - Run full unit test suite"
 	@echo "  make eval         - Run golden dataset evaluation benchmark"
 	@echo "  make ablations    - Run ablation experiments"
+	@echo "  make benchmark    - Run latency profiler"
+	@echo "  make cli          - Launch interactive terminal REPL"
 	@echo "  make app          - Launch interactive Streamlit demo"
 
 install:
@@ -27,6 +29,12 @@ eval:
 
 ablations:
 	PYTHONPATH=src python3 scripts/run_ablations.py
+
+benchmark:
+	PYTHONPATH=src python3 scripts/benchmark_latency.py
+
+cli:
+	PYTHONPATH=src python3 scripts/interactive_cli.py
 
 app:
 	python3 scripts/run_app.py
