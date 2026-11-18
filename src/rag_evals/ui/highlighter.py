@@ -11,7 +11,7 @@ class TextHighlighter:
         for kw in keywords:
             if len(kw.strip()) > 2:
                 pattern = re.compile(rf"\b({re.escape(kw)})\b", re.IGNORECASE)
-                text = pattern.sub(r"****", text)
+                text = pattern.sub(r"**\g<1>**", text)
         return text
 
     @staticmethod
@@ -19,5 +19,5 @@ class TextHighlighter:
         for kw in keywords:
             if len(kw.strip()) > 2:
                 pattern = re.compile(rf"\b({re.escape(kw)})\b", re.IGNORECASE)
-                text = pattern.sub(r"\033[1;33m\033[0m", text)
+                text = pattern.sub(r"\033[1;33m\g<1>\033[0m", text)
         return text
