@@ -1,0 +1,21 @@
+[
+  {
+    "query": "What is the penalty for academic integrity violations?",
+    "answer": "According to university policy, # UNIVERSITY ACADEMIC REGULATIONS AND STUDENT POLICY HANDBOOK\nDocument Identifier: REG-2026-V4\nTarget Audience: All Unde... [universi_p1_c1]",
+    "citations": [
+      "universi_p1_c1"
+    ]
+  },
+  {
+    "query": "How many credits are required for graduation?",
+    "answer": "I do not have sufficient information in the provided documents to answer this question.",
+    "citations": []
+  },
+  {
+    "query": "When is the tuition refund deadline?",
+    "answer": "According to university policy, Clause 5.3 - Residency Requirement:\nAt least thirty (30) of the final thirty-six (36) semester credit hours must be comp... [universi_p3_c2]",
+    "citations": [
+      "universi_p3_c2"
+    ]
+  }
+]
