@@ -1,0 +1,47 @@
+[
+  {
+    "pair": "plagiarism penalty <-> plagiarism penalty",
+    "cosine_similarity": 1.0,
+    "euclidean_distance": 0.0
+  },
+  {
+    "pair": "plagiarism penalty <-> tuition refund deadline",
+    "cosine_similarity": 0.0,
+    "euclidean_distance": 1.4142
+  },
+  {
+    "pair": "plagiarism penalty <-> dean list gpa",
+    "cosine_similarity": 0.0,
+    "euclidean_distance": 1.4142
+  },
+  {
+    "pair": "tuition refund deadline <-> plagiarism penalty",
+    "cosine_similarity": 0.0,
+    "euclidean_distance": 1.4142
+  },
+  {
+    "pair": "tuition refund deadline <-> tuition refund deadline",
+    "cosine_similarity": 1.0,
+    "euclidean_distance": 0.0
+  },
+  {
+    "pair": "tuition refund deadline <-> dean list gpa",
+    "cosine_similarity": 0.0,
+    "euclidean_distance": 1.4142
+  },
+  {
+    "pair": "dean list gpa <-> plagiarism penalty",
+    "cosine_similarity": 0.0,
+    "euclidean_distance": 1.4142
+  },
+  {
+    "pair": "dean list gpa <-> tuition refund deadline",
+    "cosine_similarity": 0.0,
+    "euclidean_distance": 1.4142
+  },
+  {
+    "pair": "dean list gpa <-> dean list gpa",
+    "cosine_similarity": 1.0,
+    "euclidean_distance": 0.0
+  }
+]
