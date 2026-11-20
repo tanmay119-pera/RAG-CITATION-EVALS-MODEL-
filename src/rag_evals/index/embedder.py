@@ -54,3 +54,6 @@ class GeminiEmbedder:
         else:
             vec[0] = 1.0
         return vec
+
+# Compatibility alias
+Embedder = GeminiEmbedder

@@ -60,3 +60,6 @@ class GroundedGenerator:
 
         answer = f"According to university policy, {best_chunk.text[:120].strip()}... [{best_chunk.chunk_id}]"
         return answer, False
+
+# Compatibility alias
+RAGGenerator = GroundedGenerator
