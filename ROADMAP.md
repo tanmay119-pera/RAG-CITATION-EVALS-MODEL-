@@ -22,7 +22,8 @@
 - [x] Hallucination risk grading
 - [x] Fine-grained latency execution profiler
 - [x] Category-partitioned sharded indexing
-- [x] OpenTelemetry-compatible span exporter
-- [ ] Synthetic evaluation question generation
-- [ ] Multi-hop iterative reasoning
-- [ ] 8-bit scalar index quantization
+- [x] Synthetic evaluation question generation
+- [x] Multi-hop iterative reasoning pipeline
+- [x] 8-bit scalar index quantization
+- [x] Token inference cost calculator
+- [x] Prometheus metrics format exporter
