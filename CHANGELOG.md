@@ -2,27 +2,25 @@
 
 All notable changes to the RAG Citation Evals repository.
 
-## [0.4.0] - 2026-11-22
+## [0.4.5] - 2026-11-24
 
 ### Added
-- Chunk quality scoring engine for pre-index validation
-- Language and character script detector
-- Webhook notification manager for evaluation lifecycle
-- Batch evaluation comparator and ranking utility
-- Automated regression detection for key retrieval metrics
-- Domain synonym query expander
-- Multi-format serializer for JSON, CSV, and Markdown reports
-- Configuration parameter safety validator
-- End-to-end integration and import smoke test suites
+- Synthetic QA evaluation case generation from corpus text
+- Weighted multi-retriever ensemble pipeline
+- Iterative multi-hop question answering decomposition
+- 8-bit scalar vector quantization for memory reduction
+- Token cost and inference expense calculator
+- Input text normalizer and zero-width character stripper
+- Prometheus format metrics exporter
+- ASCII citation dependency graph visualizer
 
-## [0.3.5] - 2026-11-20
+## [0.4.2] - 2026-11-23
 
 ### Added
-- Token-bucket rate limiter for API endpoints
-- Token budget tracker for prompt and completion limits
-- Intent classifier for dynamic retrieval routing
-- Answer comparator for A/B evaluation
-- Chunk deduplication engine (exact and fuzzy)
-- Embedding drift monitoring
-- System health checker
-- LRU query cache with TTL expiration
+- Hypothetical Document Embeddings (HyDE) zero-shot retrieval
+- Contextual sentence-level chunk compression
+- Grounding and hallucination risk grader
+- Fine-grained stage latency execution profiler
+- Category-partitioned sharded BM25 index
+- Heuristic prompt injection and jailbreak detector
+- OpenTelemetry span exporter and API middleware
